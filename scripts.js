@@ -7,18 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     console.log("Bootstrap tooltips attivati!");
 });
-//Gestione di un menù a discesa
-document.addEventListener("DOMContentLoaded", function () {
-    var dropdown = document.querySelector(".dropdown");
-    dropdown.addEventListener("mouseover", function () {
-        var menu = dropdown.querySelector(".dropdown-menu");
-        menu.classList.add("show");
-    });
-    dropdown.addEventListener("mouseleave", function () {
-        var menu = dropdown.querySelector(".dropdown-menu");
-        menu.classList.remove("show");
-    });
-});
+
 // Gestione dei menù a discesa
 document.addEventListener("DOMContentLoaded", function () {
     var dropdowns = document.querySelectorAll(".dropdown");
